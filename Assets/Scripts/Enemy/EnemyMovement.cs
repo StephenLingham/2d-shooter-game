@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     private Transform playerTransform;
-    private float movementSpeed = 4f;
+    public float MovementSpeed = 4f;
 
     private void Start()
     {
@@ -27,7 +27,7 @@ public class EnemyMovement : MonoBehaviour
         }
 
         Vector3 direction = (playerTransform.position - transform.position).normalized;
-        Vector3 movement = movementSpeed * Time.deltaTime * direction;
+        Vector3 movement = MovementSpeed * Time.deltaTime * direction;
         transform.position += movement;
     }
 }

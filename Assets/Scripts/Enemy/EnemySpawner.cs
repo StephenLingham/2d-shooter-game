@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ObjectSpawner : MonoBehaviour
+public class EnemySpawner : MonoBehaviour
 {
     public GameObject objectPrefab;
     public int numberOfObjectsToSpawn = 10;

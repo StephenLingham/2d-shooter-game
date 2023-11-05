@@ -1,6 +1,6 @@
 ## Description
 
-2D top-down shooter game of the "bullet hell" genre.
+2D arena shooter
 
 ## Tech Stack
 - Unity 3D
